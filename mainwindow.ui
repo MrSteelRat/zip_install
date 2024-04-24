@@ -27,7 +27,7 @@
      <item row="0" column="1">
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>Привествую вас, нажмите кнопку Download,  для скачивания 7-zip и install для установки </string>
+        <string>Привествую вас, нажмите кнопку Download,  для скачивания 7-zip и Install для установки </string>
        </property>
       </widget>
      </item>
@@ -78,7 +78,10 @@
      <item row="1" column="1">
       <widget class="QProgressBar" name="Install_bar">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>

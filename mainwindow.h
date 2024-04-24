@@ -32,7 +32,7 @@ private slots:
 
     void on_DownloadBtn_clicked();
 
-    void on_Install_bar_valueChanged(int value);
+    void on_Install_bar_valueChanged(int value, int valueTotal);
 
     void on_InstallBtn_clicked();
 
